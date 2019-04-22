@@ -1,12 +1,59 @@
+/* Background */
+
 body {
-    color: #CCCCCC;
     background-color: #36393E;
 }
 
-.grey_text {
+
+/* Colors */
+
+.grey {
     color: #CCCCCC;
 }
 
-.dark_grey_text {
+.dark_grey {
     color: #B7B7B7;
+}
+
+
+/* Font Styles */
+
+.monospace_1 {
+    font-size: 40px;
+    font-family: monospace;
+
+}
+
+.monospace_2 {
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.strokeme {
+    color: #B7B7B7;
+    text-shadow:
+    -1px -1px 0 #000;
+    1px -1px 0 #000;
+    -1px 1px 0 #000;
+    1px 1px 0 #000;
+}
+
+
+/* Alignment */
+
+.top_padding{
+    margin-top: 150px;
+}
+.center {
+    text-align: center;
+}
+
+
+/* Images */
+
+#headshot {
+    margin-top: 5px;
+    border-radius: 75%;
+    width: 200px;
+    height: auto;
 }
