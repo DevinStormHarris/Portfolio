@@ -1,21 +1,3 @@
-/* Background */
-
-body {
-    background-color: #36393E;
-}
-
-
-/* Colors */
-
-.grey {
-    color: #CCCCCC;
-}
-
-.dark_grey {
-    color: #B7B7B7;
-}
-
-
 /* Font Styles */
 
 .monospace_1 {
@@ -29,7 +11,7 @@ body {
     font-family: monospace;
 }
 
-.strokeme {
+.strokeMe {
     color: #B7B7B7;
     text-shadow:
     -1px -1px 0 #000;
@@ -38,14 +20,8 @@ body {
     1px 1px 0 #000;
 }
 
-
-/* Alignment */
-
-.top_padding{
-    margin-top: 150px;
-}
-.center {
-    text-align: center;
+.topMargin {
+    margin-top: 25px;
 }
 
 
@@ -56,4 +32,9 @@ body {
     border-radius: 75%;
     width: 200px;
     height: auto;
+}
+
+body {
+    background-color: #36393E;
+    color: #CCCCCC;
 }
