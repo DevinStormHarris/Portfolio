@@ -1,0 +1,84 @@
+/* Font Styles */
+
+.monospace_1 {
+    font-size: 40px;
+    font-family: monospace;
+
+}
+
+.monospace_2 {
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.strokeMe {
+    color: #B7B7B7;
+    text-shadow:
+    -1px -1px 0 #000;
+    1px -1px 0 #000;
+    -1px 1px 0 #000;
+    1px 1px 0 #000;
+}
+
+/* Alignment */ 
+
+.topMargin {
+    margin-top: 25px;
+}
+
+
+/* Images */
+
+#headshot {
+    margin-top: 5px;
+    border-radius: 75%;
+    width: 200px;
+    height: auto;
+}
+
+body {
+    font: 20px monospace, sans-serif;
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+p {font-size: 16px;}
+
+.margin {margin-bottom: 45px;}
+
+.bg-1 { 
+   background-color: #36393E; /* Green */
+  color: #cccccc;
+}
+
+.bg-2 { 
+    background-color: rgba(54, 57, 62, 0.897); /* Dark Blue */
+    color: #cccccc;
+}
+
+.bg-3 { 
+    background-color: rgba(54, 57, 62, 0.801); /* White */
+    color: #cccccc;
+}
+
+.bg-4 { 
+    background-color: rgba(54, 57, 62, 0.699); /* Black Gray */
+    color: #cccccc;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+.navbar-nar{
+    flex-direction: row;
+}
